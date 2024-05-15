@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import './HomePage.css'
-import img1 from '/assets/Home page/ION_New_color_Banner_WEB_1600x.webp'
-import img2 from '/assets/Home page/IPL_HP_Banner_WEB_1_1440x.webp'
-import img3 from '/assets/Home page/RS_Banner_WEB_1_1440x.webp'
-import img4 from '/assets/Home page/Storm_Call_3_WEB_1_1600x.webp'
+import img1 from '/public/assets/Home page/ION_New_color_Banner_WEB_1600x.webp'
+import img2 from '/public/assets/Home page/IPL_HP_Banner_WEB_1_1440x.webp'
+import img3 from '/public/assets/Home page/RS_Banner_WEB_1_1440x.webp'
+import img4 from '/public/assets/Home page/Storm_Call_3_WEB_1_1600x.webp'
 
 
 
