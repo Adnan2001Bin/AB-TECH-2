@@ -34,7 +34,7 @@ function Header(props) {
                 <div className='flex items-center'>
                     <Link to='/'>
                         <div>
-                            <img className='w-44' src="src\assets\Basic\AB-TECH.png" alt="" />
+                            <img className='w-44' src="AB-TECH.png" alt="" />
                         </div>
                     </Link>
                     <button className='ml-5 hover:underline'>
