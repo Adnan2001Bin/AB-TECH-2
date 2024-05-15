@@ -12,6 +12,11 @@ function RootLayout() {
       
 
       <div>
+      <h1>adnan</h1>
+      <h1>adnan</h1>
+      <h1>adnan</h1>
+      <h1>adnan</h1>
+      <h1>adnan</h1>
         <Outlet />
       </div>
 
