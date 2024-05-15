@@ -32,7 +32,7 @@ function HeaderCartButton(props) {
         <button onClick={props.onClick} className={`w-52 text-white bg-black border border-black hover:bg-gray-600 rounded-full h-14 flex items-center ${btnClasses}`}>
 
             <span className="w-6 ml-6 ">
-                <img className="" src="src\assets\icons8-shopping-cart-50.png" alt="" />
+                <img className="" src="assets\icons8-shopping-cart-50.png" alt="" />
             </span>
             <span className="ml-3 font-Myfont text-xl">Your Cart</span>
             <span className="ml-2 font-Myfont text-xl text-black bg-white rounded-xl w-8">

@@ -32,7 +32,7 @@ function BestSellers() {
             muted
             onMouseEnter={() => handleMouseEnter(videoRefs.video1)}
             onMouseLeave={() => handleMouseLeave(videoRefs.video1)}
-            src="src\assets\quinn_Bejc8URjU1NSXdhabLCmD.mp4"
+            src="assets\quinn_Bejc8URjU1NSXdhabLCmD.mp4"
           ></video>
           <p className='text-center text-xl font-mono font-semibold'>Earbuds</p>
         </Link>
@@ -48,7 +48,7 @@ function BestSellers() {
             muted
             onMouseEnter={() => handleMouseEnter(videoRefs.video2)}
             onMouseLeave={() => handleMouseLeave(videoRefs.video2)}
-            src="src\assets\quinn_CpsRIdJWtpXyFN3enwbXd.mp4"
+            src="assets\quinn_CpsRIdJWtpXyFN3enwbXd.mp4"
           ></video>
           <p className='text-center text-xl font-mono font-semibold'>Headphones</p>
         </Link>
@@ -64,7 +64,7 @@ function BestSellers() {
             muted
             onMouseEnter={() => handleMouseEnter(videoRefs.video3)}
             onMouseLeave={() => handleMouseLeave(videoRefs.video3)}
-            src="src\assets\quinn_OyJHanx4QSdUN3OVGTO7C.mp4"
+            src="assets\quinn_OyJHanx4QSdUN3OVGTO7C.mp4"
           ></video>
           <p className='text-center text-xl font-mono font-semibold'>Neckbands</p>
         </Link>
@@ -80,7 +80,7 @@ function BestSellers() {
             muted
             onMouseEnter={() => handleMouseEnter(videoRefs.video4)}
             onMouseLeave={() => handleMouseLeave(videoRefs.video4)}
-            src="src\assets\quinn_RUxbhR7CvjkNtlFUDxgw9.mp4"
+            src="assets\quinn_RUxbhR7CvjkNtlFUDxgw9.mp4"
           ></video>
           <p className='text-center text-xl font-mono font-semibold'>Watches</p>
         </Link>

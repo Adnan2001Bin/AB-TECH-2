@@ -96,7 +96,7 @@ const CheckOut = props => {
 
   const cartModalContent = <React.Fragment>
     <form onSubmit={confirmHandler} className='Form text-lg font-semibold bg-sky-50'>
-      <img className='w-40 mt-2' src="src\assets\Basic\AB-TECH-2.png" alt="" />
+      <img className='w-40 mt-2' src="assets\Basic\AB-TECH-2.png" alt="" />
       <div className=' bg-white rounded-xl w-full text-2xl font-mono font-bold h-16 flex justify-center items-center'>
         <h1>Checkout Form</h1>
       </div>
@@ -128,14 +128,14 @@ const CheckOut = props => {
 
   const isSubmittingModalContent = <div className=' flex justify-center relative top-28 rounded-2xl'>
     <div className='submit bg-white rounded-2xl'>
-      <img className='w-20' src="src\assets\shipping.png" alt="" />
+      <img className='w-20' src="assets\shipping.png" alt="" />
       <h1 className='text-lg font-bold text-green-600 mt-2'>Sending Order Data.....</h1>
 
     </div>
   </div>
   const didSubmittingModalContent = <div className=' flex justify-center relative top-28 rounded-2xl'>
     <div className='submit bg-white rounded-2xl'>
-      <img className='w-20' src="src\assets\checked.png" alt="" />
+      <img className='w-20' src="assets\checked.png" alt="" />
       <h1 className='text-lg font-bold text-green-600 mt-2'>Order Successfull!</h1>
       <p className='font-semibold mt-2'>Thank you so much for your order.</p>
       <button onClick={props.onCloseCheckOut} className='bg-green-600 text-white w-28 h-14 rounded-xl hover:bg-green-500 mt-6'>Close</button>

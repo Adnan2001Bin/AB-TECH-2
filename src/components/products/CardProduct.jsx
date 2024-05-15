@@ -33,11 +33,11 @@ function CardProduct(props) {
             <div className='w-9/12 ml-3 font-Myfont'>
                 <div className='flex justify-between'>
                     <div className='flex'>
-                        <img className='w-5 h-5' src="src\assets\icons8-star-96.png" alt="" />
+                        <img className='w-5 h-5' src="public\assets\icons8-star-96.png" alt="" />
                         <p>{props.ratings}</p>
                     </div>
                     <div className='flex'>
-                        <img className='w-5 h-5' src="src\assets\icons8-tick-96.png" alt="" />
+                        <img className='w-5 h-5' src="public\assets\icons8-tick-96.png" alt="" />
                         <p className='mr-4'>{props.sellsNumber}</p>
                     </div>
                 </div>

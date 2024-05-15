@@ -57,7 +57,7 @@ function NewLaunches() {
         <div className="flex mr-5 justify-between items-center">
           <Link to="./NewLaunchesItems"> <h1 className="font-bold text-blue-700">View all</h1></Link>
 
-          <img className="w-5 h-5 ml-2" src="src\assets\right-arrow.png" alt="" />
+          <img className="w-5 h-5 ml-2" src="assets\right-arrow.png" alt="" />
         </div>
       </div>
       <div className="flex justify-center">

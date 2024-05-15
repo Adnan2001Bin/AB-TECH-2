@@ -6,10 +6,10 @@ function Footer() {
             <div className='flex items-center flex-grow'>
                 <h1 className='text-lg font-semibold font-mono'>Let's get social</h1>
                 <div className='flex ml-5'>
-                    <img className='w-8 ml-4' src="src\assets\Basic\facebook.png" alt="" />
-                    <img className='w-8 ml-4' src="src\assets\Basic\instagram.png" alt="" />
-                    <img className='w-8 ml-4' src="src\assets\Basic\youtube.png" alt="" />
-                    <img className='w-8 ml-4' src="src\assets\Basic\linkedin.png" alt="" />
+                    <img className='w-8 ml-4' src="assets\Basic\facebook.png" alt="" />
+                    <img className='w-8 ml-4' src="assets\Basic\instagram.png" alt="" />
+                    <img className='w-8 ml-4' src="assets\Basic\linkedin.png" alt="" />
+                    <img className='w-8 ml-4' src="assets\Basic\youtube.png" alt="" />
                 </div>
             </div>
             <div className='flex mt-5 text-xs font-mono'> 

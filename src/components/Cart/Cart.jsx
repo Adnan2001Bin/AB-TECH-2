@@ -68,7 +68,7 @@ function Cart(props) {
         {!hasItems &&
           <div className="emptyCart">
 
-            <img className="w-4/5" src="src\assets\Untitled design.png" alt="" />
+            <img className="w-4/5" src="assets\Untitled design.png" alt="" />
             <h1 className="text-xl font-bold">Your Cart is feeling lonely</h1>
 
 

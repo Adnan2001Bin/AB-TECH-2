@@ -27,14 +27,14 @@ function Header(props) {
     return (
         <Fragment>
             <div className={`w-full bg-blue-50 h-12 flex items-center px-20 justify-center Hotline ${scrolled ? 'hidden' : ''}`}>
-                <img className='w-5 mr-1' src="src\assets\Basic\telephone.png" alt="" />
+                <img className='w-5 mr-1' src="assets\Basic\telephone.png" alt="" />
                 <h1> Hotline: <span className='font-semibold'>0187-871-0544</span></h1>
             </div>
             <header className={`w-full h-20 border-b-2 border-gray-200 flex items-center px-20 justify-between ${scrolled ? 'fixed top-0 bg-white z-10' : ''}`}>
                 <div className='flex items-center'>
                     <Link to='/'>
                         <div>
-                            <img className='w-44' src="AB-TECH.png" alt="" />
+                            <img className='w-44' src="assets\Basic\AB-TECH.png" alt="" />
                         </div>
                     </Link>
                     <button className='ml-5 hover:underline'>
@@ -48,10 +48,10 @@ function Header(props) {
                     </button>
                 </div>
                 <button className=''>
-                    <HeaderCartButton onClick = {props.onShowCart} />
+                    <HeaderCartButton onClick={props.onShowCart} />
                 </button>
 
-       
+
             </header>
         </Fragment>
     );
