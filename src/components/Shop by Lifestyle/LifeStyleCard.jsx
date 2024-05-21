@@ -8,7 +8,7 @@ const LifeStyleCard = (props) => {
             <h1 className='text-2xl mt-2 font-bold'>{props.catagory}</h1>
             <div className='flex '>
                 <p className='mt-2 font-semibold text-lg text-cyan-900 mr-3'>View All</p>
-                <img className='w-5 h-5 mt-3' src="src\assets\right-arrow.png" alt="" />
+                <img className='w-5 h-5 mt-3' src="assets\right-arrow.png" alt="" />
             </div>
 
         </div>

@@ -68,7 +68,7 @@ function Neckbands() {
 
   return (
     <div className='flex-row mt-5'>
-      <h1 className='text-3xl ml-16 font-medium font-Myfont'>PowerBanks</h1>
+      <h1 className='text-3xl ml-16 font-medium font-Myfont'>Neckband</h1>
       <Card>
         {neckbandslist}
       </Card>

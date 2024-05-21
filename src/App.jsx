@@ -58,9 +58,9 @@ function App() {
         {
           path: '/NewLaunchesItems', element: <NewLaunchesItems />
         },
-        {
-          path: '/LifeStyle', element: <LifeStyle />
-        },
+        // {
+        //   path: '/LifeStyle', element: <LifeStyle />
+        // },
 
 
       ]

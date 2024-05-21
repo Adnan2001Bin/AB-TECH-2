@@ -17,7 +17,7 @@ function All() {
       <HomePage />
       <BestSellers />
       <NewLaunches />
-      <LifeStyle />
+      {/* <LifeStyle /> */}
     </Fragment>
   )
 }

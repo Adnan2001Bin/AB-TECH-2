@@ -135,7 +135,7 @@ const CheckOut = props => {
   </div>
   const didSubmittingModalContent = <div className=' flex justify-center relative top-28 rounded-2xl'>
     <div className='submit bg-white rounded-2xl'>
-      <img className='w-20' src="assets\checked.png" alt="" />
+      <img className='w-20' src="src\assets\checked.png" alt="" />
       <h1 className='text-lg font-bold text-green-600 mt-2'>Order Successfull!</h1>
       <p className='font-semibold mt-2'>Thank you so much for your order.</p>
       <button onClick={props.onCloseCheckOut} className='bg-green-600 text-white w-28 h-14 rounded-xl hover:bg-green-500 mt-6'>Close</button>
