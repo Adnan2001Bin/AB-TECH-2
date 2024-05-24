@@ -1,9 +1,11 @@
 import { Link } from 'react-router-dom';
 import { Fragment, useState, useEffect } from 'react';
 import HeaderCetagories from './HeaderCetagories';
-import OfficeEquipment from './OfficeEquipment';
+// import OfficeEquipment from './Laptop';
 import DailyDeals from './DailyDeals';
 import HeaderCartButton from './HeaderCartButton';
+import Laptop from './Laptop';
+import SmartPhone from './Smart Phone';
 
 function Header(props) {
     const [scrolled, setScrolled] = useState(false);
@@ -41,11 +43,16 @@ function Header(props) {
                         <HeaderCetagories onClickCetagories={props.onShowCategories} />
                     </button>
                     <button className='ml-5 hover:underline'>
-                        <OfficeEquipment />
+                        <Laptop onShowLaptopCatagories = {props.onShowLaptopCatagories}/>
                     </button>
+{/* 
                     <button className='ml-5 hover:underline'>
+                        <SmartPhone onShowPhoneCatagories ={props.onShowPhoneCatagories} />
+                    </button> */}
+
+                    <Link to={'./NewLaunchesItems'} className='ml-5 hover:underline'>
                         <DailyDeals />
-                    </button>
+                    </Link>
                 </div>
                 <button className=''>
                     <HeaderCartButton onClick={props.onShowCart} />

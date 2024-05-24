@@ -14,6 +14,10 @@ import All from './All';
 import NewLaunchesItems from './components/products/New Launches/NewLaunchesItems';
 import { Fragment } from 'react';
 import LifeStyle from './components/Shop by Lifestyle/LifeStyle';
+import Dell from './components/products/Laptop/Dell';
+import MacBook from './components/products/Laptop/MacBook';
+import Lenovo from './components/products/Laptop/Lenova';
+import HP from './components/products/Laptop/HP';
 
 
 
@@ -58,9 +62,20 @@ function App() {
         {
           path: '/NewLaunchesItems', element: <NewLaunchesItems />
         },
-        // {
-        //   path: '/LifeStyle', element: <LifeStyle />
-        // },
+        {
+          path: '/Dell', element: <Dell />
+        },
+
+        {
+          path: '/MacBook', element: <MacBook />
+        },
+
+        {
+          path: '/Lenovo', element: <Lenovo />
+        },
+        {
+          path: '/HP', element: <HP />
+        },
 
 
       ]

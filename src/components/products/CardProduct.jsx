@@ -27,10 +27,10 @@ function CardProduct(props) {
 
     return (
         <div className='Card flex items-center cursor-pointer bg-red-50 rounded-lg shadow-md ml-4 mt-3'>
-            <div className=' w-2/6 h-48 '>
+            <div className='  Cardimg h-48 '>
                 <img className='w-full h-full rounded-lg' src={props.img} alt="" />
             </div>
-            <div className='w-9/12 ml-3 font-Myfont'>
+            <div className='w-9/12 CardText ml-3 font-Myfont'>
                 <div className='flex justify-between'>
                     <div className='flex'>
                         <img className='w-5 h-5' src="public\assets\icons8-star-96.png" alt="" />
